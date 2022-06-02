@@ -3,7 +3,7 @@
 <button mat-raised-button color="primary" (click)="saveContent()">Save Content</button>
 </div>
 <div class="editor-section">
-
-  <ckeditor  [editor]="editor"  [(ngModel)]="content" [config]="config" ></ckeditor>
+  <angular-editor [placeholder]="'Enter text here...'" [config]="editorConfig" [(ngModel)]="content"></angular-editor>
+<!--   <ckeditor  [editor]="editor"  [(ngModel)]="content" [config]="config" ></ckeditor> -->
 </div>
 </div>

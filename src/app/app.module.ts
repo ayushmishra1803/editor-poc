@@ -11,7 +11,8 @@ import { ReviewComponent } from './components/review/review.component';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SanitizeHtmlPipe } from './pipe/sanitize-html.pipe';
-
+import { HttpClientModule} from '@angular/common/http';
+import { AngularEditorModule } from '@kolkov/angular-editor';
 @NgModule({
   declarations: [AppComponent, EditorComponent, ReviewComponent, SanitizeHtmlPipe],
   imports: [
@@ -21,7 +22,7 @@ import { SanitizeHtmlPipe } from './pipe/sanitize-html.pipe';
     BrowserAnimationsModule,
     MatTabsModule,
     MatButtonModule,
-    ReactiveFormsModule,FormsModule
+    ReactiveFormsModule,FormsModule,HttpClientModule,AngularEditorModule
   ],
   providers: [],
   bootstrap: [AppComponent],

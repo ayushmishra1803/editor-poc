@@ -50,10 +50,10 @@ export class EditorComponent implements OnInit {
     uploadWithCredentials: false,
     sanitize: true,
     toolbarPosition: 'top',
-    toolbarHiddenButtons: [
-      ['bold', 'italic'],
-      ['fontSize']
-    ]
+   // toolbarHiddenButtons: [
+    //  ['bold', 'italic'],
+     // ['fontSize']
+   // ]
 };
 
   ngOnInit(): void {

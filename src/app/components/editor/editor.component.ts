@@ -47,9 +47,6 @@ export class EditorComponent implements OnInit {
         tag: 'h1',
       },
     ],
-   // uploadUrl: 'v1/image',
-    //upload: (file: File) => {console.log();
-     //},
     uploadWithCredentials: false,
     sanitize: true,
     toolbarPosition: 'top',
